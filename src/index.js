@@ -1,6 +1,7 @@
 import {initialload} from "./initial";
 import {loadhome} from "./home";
 import {loadmenu} from "./menu";
+import {loadcontact} from "./contact";
 
 initialload();
 
