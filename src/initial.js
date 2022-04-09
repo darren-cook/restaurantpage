@@ -5,6 +5,8 @@ function initialload() {
 
     content.appendChild(loadheader());
     content.appendChild(loadmaincontent());
+    
+    loadhome();
 }
 
 function loadheader() {
@@ -48,7 +50,6 @@ function loadmaincontent(){
     navbar.appendChild(contact);
 
     maincontent.appendChild(navbar);
-    maincontent.appendChild(loadhome());
 
     return maincontent;
 }

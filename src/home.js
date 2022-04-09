@@ -1,6 +1,7 @@
 function loadhome() {
     const mainbody = document.createElement("div");
     mainbody.setAttribute("id","mainbody");
+    mainbody.classList.add("wipe");
 
     const storefront = document.createElement("img");
     storefront.setAttribute("id","storefront");
@@ -16,7 +17,8 @@ function loadhome() {
     mainbody.appendChild(storefront);
     mainbody.appendChild(mainbodydetails);
 
-    return mainbody;
+    const maincontent = document.querySelector("#maincontent");
+    maincontent.appendChild(mainbody);
 }
 
 export { loadhome }
