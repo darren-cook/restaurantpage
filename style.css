@@ -82,3 +82,31 @@ nav {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
+
+#mainmenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.menucard {
+    background-color: ivory;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.title {
+    color: #8F5B38;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc, .price {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
